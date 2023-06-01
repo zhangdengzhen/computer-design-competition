@@ -5,39 +5,25 @@
 
 ## 总体设计
 ![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/3badb3a6-b90e-48a9-a115-542aa0248db8)
-## 1,爬取数据
+## swagger接口
+![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/bd96a498-ebb2-4e5a-b323-aa2ff4addf9c)
+## 具体流程
+### 1,爬取数据
 ![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/fa85f3f5-ed83-4316-ac94-13a3dab1cd23)
 ![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/c421763b-079a-4dab-9e26-29a308cd8905)
 ![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/e4fb506a-4b6a-4b31-add4-e0e34e8a5f89)
 
+![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/1ec17e78-1147-4d3e-ac8d-0edd6221862c)
+### 2，定时更新
+![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/860106ac-21f4-4f33-9b12-4c8ac87fb70d)
+### 3，效果展示
+![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/41013035-92e5-4356-8aa4-0868fab9d29f)
+![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/8f5b99af-98c4-4beb-badd-5857fac50098)
+![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/709fc366-718b-4925-ae53-500ca98ce750)
 
-### 微信授权格式
-```json
+#### 公众号推送
+![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/18dfb469-bcc8-4f56-ab55-dd469fe94ff9)
 
-{
- {
-   "id": 1,
-   "commentId": 1,
-   "replyId": 1,
-   "replyType": "comment",
-   "content": "别傻啦",
-   "fromUid": "ozNrn6cEspMN0Yee_YDo-hTZ12gg",
-   "toUid": "ozNrn6XnlOPVTwjdcWufv6wyrPPc",
-   "fromNickname": "月迹",
-   "toNickname": "@mysatrt",
-   "url": "https://thirdwx.qlogo.cn/mmopen/vi_32/u954UKCTyyHep0fRfQJAjSurPebtLbZu40XQDLQRolyick2aQewTb1O5aJoTTF250XJfXksgLwnIPOibAflic6baQ/132"
- },
+#### 微信测试号
+![image](https://github.com/zhangdengzhen/computer-design-competition/assets/68335755/c04ba972-d3e6-4765-8ae2-bce62e17e7ab)
 
- {
-  "commentId": 19,
-  "content": "试一试",
-  "fromNickname": "吃一口咸",
-  "fromUid": "ozNrn6W2Yzy3RfBEYtZ3GdiUj35A",
-  "id": 0,
-  "replyId": 36,
-  "replyType": "reply",
-  "toNickname": "吃一口咸",
-  "toUid": "ozNrn6W2Yzy3RfBEYtZ3GdiUj35A",
-  "url": "https://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83epPYkSkbDSnYefiaiaBLW86msYmUjk4JRwI2bZZJeff9AFVrPbBEJpftFiaAYNhpFVDZxImkItcAbQfQ/132"
-}
-```
