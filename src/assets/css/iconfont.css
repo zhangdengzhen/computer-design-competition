@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3319056 */
+  src: url('iconfont.woff2?t=1650121649784') format('woff2'),
+       url('iconfont.woff?t=1650121649784') format('woff'),
+       url('iconfont.ttf?t=1650121649784') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-remaituijian:before {
+  content: "\ffa4";
+}
+
+.icon-remaituijian-copy:before {
+  content: "\ffa5";
+}
+
+.icon-zhaopin:before {
+  content: "\e666";
+}
+
+.icon-zhaopinhui:before {
+  content: "\e63f";
+}
+
+.icon-daohang_remen-xuanzhong:before {
+  content: "\e738";
+}
+
+.icon-a-xinjiantianjia:before {
+  content: "\e6a2";
+}
+
+.icon-a-xinjiantianjia-copy:before {
+  content: "\e6a3";
+}
+
+.icon-shoucang:before {
+  content: "\e67d";
+}
+
+.icon-shouye:before {
+  content: "\e681";
+}
+
+.icon-wode:before {
+  content: "\e606";
+}
+
+.icon-fabu:before {
+  content: "\e69b";
+}
+
+.icon-fenlei:before {
+  content: "\e67b";
+}
+
+.icon-fenleitongji:before {
+  content: "\e60c";
+}
+
+.icon-fenlei-copy:before {
+  content: "\ffa6";
+}
+
+.icon-wode-copy:before {
+  content: "\ffa7";
+}
+
+.icon-wode-copy-copy:before {
+  content: "\ffa8";
+}
+
+.icon{
+  width: 26px;
+  height: 26px;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
